@@ -21,6 +21,10 @@ namespace HelloWorld
             Loading.OnLoadingComplete += Start;
         }
     
+        /// <summary>
+        /// Print Hello World! to Chat
+        /// </summary>
+        /// <param name="args"></param>
         private static void Start(EventArgs args){ 
             Chat.Print("Hello World!");
         }
